@@ -74,5 +74,11 @@ namespace PerformanceTestNetWebApi.Controllers
 
             return Ok(offices);
         }
+
+        [HttpGet("ok")]
+        public IActionResult Ok()
+        {
+            return Ok("ok");
+        }
     }
 }
