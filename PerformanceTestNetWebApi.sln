@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceTestNetWebApi", "PerformanceTestNetWebApi\PerformanceTestNetWebApi.csproj", "{31DBD961-756D-4C99-838B-0CCA5339F20A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31DBD961-756D-4C99-838B-0CCA5339F20A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31DBD961-756D-4C99-838B-0CCA5339F20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31DBD961-756D-4C99-838B-0CCA5339F20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31DBD961-756D-4C99-838B-0CCA5339F20A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF60E45C-4FEA-4CDE-9B2C-86A37065B061}
+	EndGlobalSection
+EndGlobal

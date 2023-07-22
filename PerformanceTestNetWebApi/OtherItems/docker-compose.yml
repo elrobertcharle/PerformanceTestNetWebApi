@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  postgres:
+   image: postgres:latest
+   environment:
+    - POSTGRES_USER=cliff
+    - POSTGRES_PASSWORD=Abc12345[}
+   ports:
+    - "5432:5432"
+   volumes:
+    - datavol:/var/lib/postgresql/data
+  pg-admin:
+   image: dpage/pgadmin4
+   environment:
+    - PGADMIN_DEFAULT_EMAIL=lola@gmail.com
+    - PGADMIN_DEFAULT_PASSWORD=Abc12345[}
+    - PGADMIN_LISTEN_PORT=5050
+   ports:
+    - "5050:5050" 
+ 
+volumes:
+  datavol:
